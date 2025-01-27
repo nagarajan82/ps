@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "date": "7 July 2023",
+    "articleUrl": "https://www.formula1.com/en/latest/article.norris-backing-himself-to-be-best-of-the-brits-at-silverstone.4mukepF8yJCM3qUBkqhhgj.html",
+    "header": "NORRIS: BEST OF THE BRITS",
+    "subheader": "",
+    "relatedRace": "Silverstone",
+    "content": "Norris backing himself to be 'Best of the Brits' at Silverstone over Russell, Hamilton, Albon"
+  },
+  {
+    "id": 2,
+    "date": "6 July 2023",
+    "articleUrl": "https://www.formula1.com/en/latest/article.formula-why-why-are-f1-wind-tunnels-top-secret.5sPKCDd9Wew5JdSjFgjjuM.html",
+    "header": "FORMULA WHY",
+    "subheader": "",
+    "relatedRace": "Silverstone",
+    "content": "Why are F1 wind tunnels top secret?"
+  },
+  {
+    "id": 3,
+    "date": "5 July 2023",
+    "articleUrl": "https://www.formula1.com/en/latest/article.weekend-warm-up-f1-drivers-get-ready-for-action-at-the-home-of-british.12WYxkeT136h6A9fFBuWAJ.html",
+    "header": "WEEKEND WARM-UP",
+    "subheader": "",
+    "relatedRace": "Silverstone",
+    "content": "F1 drivers get ready for action at the home of British motorsport"
+  }
+]

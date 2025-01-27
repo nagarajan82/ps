@@ -1,0 +1,299 @@
+[
+  {
+    "round": 1,
+    "circuitId": "bahrain",
+    "circuitName": "Bahrain International Circuit",
+    "country": "Bahrain",
+    "driverName": "Fernando Alonso",
+    "driverId": "alonso",
+    "code": "ALO",
+    "finishingPosition": "3",
+    "percentVote": "53.3",
+    "voting": {
+      "1": {
+        "driverName": "Fernando Alonso",
+        "percentVote": "53.3"
+      },
+      "2": {
+        "driverName": "Pierre Gasly",
+        "percentVote": "6.5"
+      },
+      "3": {
+        "driverName": "Max Verstappen",
+        "percentVote": "6.3"
+      },
+      "4": {
+        "driverName": "Lewis Hamilton",
+        "percentVote": "5.5"
+      },
+      "5": {
+        "driverName": "Charles Leclerc",
+        "percentVote": "4.4"
+      }
+    }
+  },
+  {
+    "round": 2,
+    "circuitId": "jeddah",
+    "circuitName": "Jeddah Corniche Circuit",
+    "country": "Saudi Arabia",
+    "driverName": "Max Verstappen",
+    "driverId": "max_verstappen",
+    "code": "VER",
+    "finishingPosition": "2",
+    "percentVote": "26.3",
+    "voting": {
+      "1": {
+        "driverName": "Max Verstappen",
+        "percentVote": "26.3"
+      },
+      "2": {
+        "driverName": "Sergio Pérez",
+        "percentVote": "19.8"
+      },
+      "3": {
+        "driverName": "Fernando Alonso",
+        "percentVote": "14.6"
+      },
+      "4": {
+        "driverName": "Charles Leclerc",
+        "percentVote": "7.2"
+      },
+      "5": {
+        "driverName": "Lewis Hamilton",
+        "percentVote": "6.7"
+      }
+    }
+  },
+  {
+    "round": 3,
+    "circuitId": "albert_park",
+    "circuitName": "Albert Park Grand Prix Circuit",
+    "country": "Australia",
+    "driverName": "Sergio Pérez",
+    "driverId": "perez",
+    "code": "PER",
+    "finishingPosition": "5",
+    "percentVote": "21.3",
+    "voting": {
+      "1": {
+        "driverName": "Sergio Pérez",
+        "percentVote": "21.3"
+      },
+      "2": {
+        "driverName": "Lewis Hamilton",
+        "percentVote": "14.3"
+      },
+      "3": {
+        "driverName": "Pierre Gasly",
+        "percentVote": "10.3"
+      },
+      "4": {
+        "driverName": "Lando Norris",
+        "percentVote": "9.6"
+      },
+      "5": {
+        "driverName": "Carlos Sainz",
+        "percentVote": "9.0"
+      }
+    }
+  },
+  {
+    "round": 4,
+    "circuitId": "baku",
+    "circuitName": "Baku City Circuit",
+    "country": "Azerbaijan",
+    "driverName": "Sergio Pérez",
+    "driverId": "perez",
+    "code": "PER",
+    "finishingPosition": "1",
+    "percentVote": "29.1",
+    "voting": {
+      "1": {
+        "driverName": "Sergio Pérez",
+        "percentVote": "29.1"
+      },
+      "2": {
+        "driverName": "Fernando Alonso",
+        "percentVote": "14.3"
+      },
+      "3": {
+        "driverName": "Charles Leclerc",
+        "percentVote": "11.4"
+      },
+      "4": {
+        "driverName": "Lewis Hamilton",
+        "percentVote": "9.6"
+      },
+      "5": {
+        "driverName": "Max Verstappen",
+        "percentVote": "6.6"
+      }
+    }
+  },
+  {
+    "round": 5,
+    "circuitId": "miami",
+    "circuitName": "Miami International Autodrome",
+    "country": "USA",
+    "driverName": "Max Verstappen",
+    "driverId": "max_verstappen",
+    "code": "VER",
+    "finishingPosition": "1",
+    "percentVote": "27.1",
+    "voting": {
+      "1": {
+        "driverName": "Max Verstappen",
+        "percentVote": "27.1"
+      },
+      "2": {
+        "driverName": "Sergio Pérez",
+        "percentVote": "12.5"
+      },
+      "3": {
+        "driverName": "Fernando Alonso",
+        "percentVote": "9.8"
+      },
+      "4": {
+        "driverName": "Lewis Hamilton",
+        "percentVote": "8.6"
+      },
+      "5": {
+        "driverName": "George Russell",
+        "percentVote": "7.9"
+      }
+    }
+  },
+  {
+    "round": 6,
+    "circuitId": "monaco",
+    "circuitName": "Circuit de Monaco",
+    "country": "Monaco",
+    "driverName": "Esteban Ocon",
+    "driverId": "ocon",
+    "code": "OCO",
+    "finishingPosition": "3",
+    "percentVote": "23.5",
+    "voting": {
+      "1": {
+        "driverName": "Esteban Ocon",
+        "percentVote": "23.5"
+      },
+      "2": {
+        "driverName": "Fernando Alonso",
+        "percentVote": "22.6"
+      },
+      "3": {
+        "driverName": "Max Verstappen",
+        "percentVote": "16.5"
+      },
+      "4": {
+        "driverName": "Lewis Hamilton",
+        "percentVote": "7.5"
+      },
+      "5": {
+        "driverName": "Charles Leclerc",
+        "percentVote": "6.2"
+      }
+    }
+  },
+  {
+    "round": 7,
+    "circuitId": "catalunya",
+    "circuitName": "Circuit de Barcelona-Catalunya",
+    "country": "Spain",
+    "driverName": "Lewis Hamilton",
+    "driverId": "hamilton",
+    "code": "HAM",
+    "finishingPosition": "2",
+    "percentVote": "24.7",
+    "voting": {
+      "1": {
+        "driverName": "Lewis Hamilton",
+        "percentVote": "24.7"
+      },
+      "2": {
+        "driverName": "Sergio Pérez",
+        "percentVote": "19.2"
+      },
+      "3": {
+        "driverName": "George Russell",
+        "percentVote": "11.3"
+      },
+      "4": {
+        "driverName": "Max Verstappen",
+        "percentVote": "10.6"
+      },
+      "5": {
+        "driverName": "Fernando Alonso",
+        "percentVote": "5.4"
+      }
+    }
+  },
+  {
+    "round": 8,
+    "circuitId": "villeneuve",
+    "circuitName": "Circuit Gilles Villeneuve",
+    "country": "Canada",
+    "driverName": "Alexander Albon",
+    "driverId": "albon",
+    "code": "ALB",
+    "finishingPosition": "7",
+    "percentVote": "28.7",
+    "voting": {
+      "1": {
+        "driverName": "Alexander Albon",
+        "percentVote": "28.7"
+      },
+      "2": {
+        "driverName": "Lewis Hamilton",
+        "percentVote": "16.4"
+      },
+      "3": {
+        "driverName": "Fernando Alonso",
+        "percentVote": "16.3"
+      },
+      "4": {
+        "driverName": "Max Verstappen",
+        "percentVote": "7.4"
+      },
+      "5": {
+        "driverName": "Charles Leclerc",
+        "percentVote": "7.3"
+      }
+    }
+  },
+  {
+    "round": 9,
+    "circuitId": "red_bull_ring",
+    "circuitName": "Red Bull Ring",
+    "country": "Austria",
+    "driverName": "Lando Norris",
+    "driverId": "norris",
+    "code": "NOR",
+    "finishingPosition": "4",
+    "percentVote": "26.1",
+    "voting": {
+      "1": {
+        "driverName": "Lando Norris",
+        "percentVote": "26.1"
+      },
+      "2": {
+        "driverName": "Carlos Sainz",
+        "percentVote": "22.4"
+      },
+      "3": {
+        "driverName": "Sergio Pérez",
+        "percentVote": "21.8"
+      },
+      "4": {
+        "driverName": "Charles Leclerc",
+        "percentVote": "7.6"
+      },
+      "5": {
+        "driverName": "Max Verstappen",
+        "percentVote": "6.5"
+      }
+    }
+  }
+]

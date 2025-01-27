@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Connor L",
+    "nickName": "corn",
+    "mainDrivers": [
+      { "fullName": "Sergio Pérez", "code": "PER" },
+      { "fullName": "Fernando Alonso", "code": "ALO" },
+      { "fullName": "Kevin Magnussen", "code": "MAG" },
+      { "fullName": "Yuki Tsunoda", "code": "TSU" }
+    ],
+    "draftOrder": "4",
+    "propBets": {
+      "topConstructor": "Ferrari",
+      "bottomConstructor": "Williams",
+      "mostDidNotFinish": "AlphaTauri",
+      "mostPoles": "Charles Leclerc",
+      "mostFastestLaps": "Max Verstappen",
+      "mostDriverOfTheDay": "Carlos Sainz"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Matt H",
+    "nickName": "hoff",
+    "mainDrivers": [
+      { "fullName": "Max Verstappen", "code": "VER" },
+      { "fullName": "Esteban Ocon", "code": "OCO" },
+      { "fullName": "Pierre Gasly", "code": "GAS" },
+      { "fullName": "Nyck de Vries", "code": "DEV" }
+    ],
+    "draftOrder": "1",
+    "propBets": {
+      "topConstructor": "Red Bull",
+      "bottomConstructor": "AlphaTauri",
+      "mostDidNotFinish": "Alfa Romeo",
+      "mostPoles": "Max Verstappen",
+      "mostFastestLaps": "Lewis Hamilton",
+      "mostDriverOfTheDay": "Lando Norris"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Michael C",
+    "nickName": "chap",
+    "mainDrivers": [
+      { "fullName": "Lewis Hamilton", "code": "HAM" },
+      { "fullName": "George Russell", "code": "RUS" },
+      { "fullName": "Oscar Piastri", "code": "PIA" },
+      { "fullName": "Nico Hülkenberg", "code": "HUL" }
+    ],
+    "draftOrder": "5",
+    "propBets": {
+      "topConstructor": "Red Bull",
+      "bottomConstructor": "Haas F1 Team",
+      "mostDidNotFinish": "Haas F1 Team",
+      "mostPoles": "Charles Leclerc",
+      "mostFastestLaps": "Max Verstappen",
+      "mostDriverOfTheDay": "Fernando Alonso"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Jim C",
+    "nickName": "jim",
+    "mainDrivers": [
+      { "fullName": "Charles Leclerc", "code": "LEC" },
+      { "fullName": "Lance Stroll", "code": "STR" },
+      { "fullName": "Guanyu Zhou", "code": "ZHO" },
+      { "fullName": "Alexander Albon", "code": "ALB" }
+    ],
+    "draftOrder": "3",
+    "propBets": {
+      "topConstructor": "Ferrari",
+      "bottomConstructor": "Williams",
+      "mostDidNotFinish": "Williams",
+      "mostPoles": "Carlos Sainz",
+      "mostFastestLaps": "Carlos Sainz",
+      "mostDriverOfTheDay": "Lewis Hamilton"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Ben G",
+    "nickName": "ben",
+    "mainDrivers": [
+      { "fullName": "Carlos Sainz", "code": "SAI" },
+      { "fullName": "Lando Norris", "code": "NOR" },
+      { "fullName": "Valtteri Bottas", "code": "BOT" },
+      { "fullName": "Logan Sargeant", "code": "SAR" }
+    ],
+    "draftOrder": "2",
+    "propBets": {
+      "topConstructor": "Ferrari",
+      "bottomConstructor": "AlphaTauri",
+      "mostDidNotFinish": "Williams",
+      "mostPoles": "Carlos Sainz",
+      "mostFastestLaps": "George Russell",
+      "mostDriverOfTheDay": "Sergio Pérez"
+    }
+  }
+]
