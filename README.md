@@ -1,7 +1,7 @@
 
-# ABC Racing App
+# RR Racing App
 
-The ABC Racing App is a mobile or web-based application designed for users who enjoy racing games or are involved in motorsports. The app likely focuses on offering an engaging experience where players or users can participate in virtual races, track their performance, or follow real-world racing events.
+The RR Racing App is a mobile or web-based application designed for users who enjoy racing games or are involved in motorsports. The app likely focuses on offering an engaging experience where players or users can participate in virtual races, track their performance, or follow real-world racing events.
 
 # Features Targeted
 
