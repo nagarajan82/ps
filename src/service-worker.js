@@ -8,7 +8,7 @@ precacheAndRoute(self.__WB_MANIFEST);
 
 // Cache API requests
 registerRoute(
-  ({ url }) => url.origin === 'https://ps-ui-f7ff0.web.app/', // replace with your API URL
+  ({ url }) => url.origin === 'https://rrracing-5ae83.web.app/', // replace with your API URL
   new StaleWhileRevalidate({
     cacheName: 'api-cache',
     plugins: [
