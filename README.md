@@ -1,34 +1,33 @@
-# Formula 1 App
 
-This _currently front end_ React app, utilizing Typescript, Tailwind, and Ergast API offers a data heavy dashboard of Formula 1 information so the user can track their predictions as the season unfolds. Updated with race results, weather, and more from multiple APIs.
+# ABC Racing App
 
-As an avid Formula 1 fan, my friends and I wanted an all inclusive f1 web app that includes our season's predictions, current season stats and more.
+The ABC Racing App is a mobile or web-based application designed for users who enjoy racing games or are involved in motorsports. The app likely focuses on offering an engaging experience where players or users can participate in virtual races, track their performance, or follow real-world racing events.
 
-View live at: https://formula1-fantasy.netlify.app/
+# Features Targeted
 
-## Current Season
+### 1) Implementation of React Component
+    - Home
+    - Leader Board
+    - Race Schedule
+    - Race Results
+    - Race Fantacy
+### 2) Integeration API Layers
+    Integerating - Ergast Developer API(experimental Motor Racing Developer API. )
+### 3) Responsive design - Mobile/web
+    By Utilizing TailwindCSS and Flex Box 
+### 4) Service Worker and Offline Features
+    By Utilizing VitePWA and api-cache mechanism 
 
-As the season unfolds each week, the current season section will be updated with the race results, track information and more. The user can sort, filter and manipulate the data to gain knowledge about a certain driver, constructor or track.
+# How to run
 
-## Fantasy
+- npm install
+- npm run dev [For Development]
+- npm run build [For Production]
 
-The Fantasy section shows the involved player's season predictions over multiple charts and data tables. The user can sort, filter and manipulate the data to better understand their position among their peers.
+# Note
+- API performance at initial time is high. However, it will be cached and served over the time by service worker.  
+  
 
-This is updated live with the current season's data via the Ergast API and more.
 
-## Historical Data
 
-This section will allow the user to query historical data about drivers, constructors, race tracks, and more. YET TO BE BUILT.
 
-## Future Work
-
-By section:
-
-1. Current Season
-   - Driver Info
-   - Constructor Info
-   - Track Info
-   - Race Schedule
-2. Fantasy
-   - Driver of the day data
-3. Historical Data
