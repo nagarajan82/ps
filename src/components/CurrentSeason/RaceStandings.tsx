@@ -383,7 +383,7 @@ export function RaceStandings({
             </div>
             <img
               className="rounded-sm w-16 border-2 border-gray-200"
-              src={raceTrackInfo.additionalInfo.flagUrl}
+              src={raceTrackInfo.additionalInfo?.flagUrl}
               alt={raceTrackInfo.Circuit.circuitName}
             />
           </div>
@@ -436,7 +436,7 @@ export function RaceStandings({
             </div>
             <img
               className="rounded-sm w-16 border-2 border-gray-200"
-              src={selectedRace.additionalInfo.flagUrl}
+              src={selectedRace.additionalInfo?.flagUrl}
               alt={selectedRace.Circuit.circuitName}
             />
           </div>

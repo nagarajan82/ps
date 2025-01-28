@@ -400,7 +400,7 @@ export function CircuitDetailedWidgetMobile({
           </div>
           <img
             className="rounded-sm w-20 border-2 border-gray-200"
-            src={selectedRace.additionalInfo.flagUrl}
+            src={selectedRace.additionalInfo?.flagUrl}
             alt={selectedRace.Circuit.circuitName}
           />
         </div>
@@ -422,7 +422,7 @@ export function CircuitDetailedWidgetMobile({
           </h3>
           <img
             className="rounded-sm w-14 border-2 border-gray-200"
-            src={selectedRace.additionalInfo.flagUrl}
+            src={selectedRace.additionalInfo?.flagUrl}
             alt={selectedRace.Circuit.circuitName}
           />
         </div>

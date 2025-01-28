@@ -355,7 +355,7 @@ export function NextRaceDetailedWidget({
               <div className="flex items-center gap-4">
                 <img
                   className="rounded-sm w-16 border-2 border-gray-200"
-                  src={nextRace.additionalInfo.flagUrl}
+                  src={nextRace.additionalInfo?.flagUrl}
                   alt={nextRace.Circuit.circuitName}
                 />
                 <Link to="/schedule">

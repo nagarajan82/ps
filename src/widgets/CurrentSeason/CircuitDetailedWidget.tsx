@@ -360,7 +360,7 @@ export function CircuitDetailedWidget({
         </h3>
         <img
           className="absolute bottom-6 right-6 rounded-sm w-20 border-2 border-gray-200"
-          src={selectedRace.additionalInfo.flagUrl}
+          src={selectedRace.additionalInfo?.flagUrl}
           alt={selectedRace.Circuit.circuitName}
         />
         <div className="absolute top-4 right-6 py-1 px-2 rounded-md text-white circuit-info--round">

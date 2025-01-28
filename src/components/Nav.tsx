@@ -45,7 +45,7 @@ export function Nav({ screenWidth }: ScreenWidthProps) {
           <header className="mobile-header w-full flex items-center justify-between px-4">
             <div className="text-white text-2xl font-thin w-max">
               <Link to="/">
-                FANTASY<span className="font-bold">1</span>
+                <span className="font-bold">ABC Race </span>Company
               </Link>
             </div>
             {/* Hamburger menu */}

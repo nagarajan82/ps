@@ -328,7 +328,7 @@ export function RaceResultsWidget({
 
   const reloadSlider = (race: any) => {
     setSelectedCircuit(race as UpdatedRacesResults);
-    slider.current?.slickGoTo(race.round - 1);
+    slider.current?.slickGoTo(race?.round - 1);
   };
 
   const handleRaceClickMobile = (race: any) => {
@@ -373,7 +373,7 @@ export function RaceResultsWidget({
               <button
                 key={race.round}
                 className={`relative circuit-info--button text-left px-1 py-2 rounded-lg ${
-                  race.round === selectedCircuit.round ? "selected" : ""
+                  race.round === selectedCircuit?.round ? "selected" : ""
                 }`}
                 onClick={() => handleRaceClick(race)}
               >
@@ -386,7 +386,7 @@ export function RaceResultsWidget({
                   <div className="flex flex-col">
                     <div
                       className={`text-sm leading-4 ${
-                        race.round === selectedCircuit.round ? "text-white" : ""
+                        race.round === selectedCircuit?.round ? "text-white" : ""
                       }`}
                     >
                       {new Date(race.date + "T" + race.time).toLocaleString(
@@ -403,7 +403,7 @@ export function RaceResultsWidget({
                     </div>
                     <div
                       className={`text-md mt-1 leading-4 font-bold ${
-                        race.round === selectedCircuit.round
+                        race.round === selectedCircuit?.round
                           ? "text-white"
                           : "text-gray-800"
                       }`}
@@ -430,7 +430,7 @@ export function RaceResultsWidget({
             <button
               key={race.round}
               className={`relative w-full circuit-info--button text-left rounded-lg ${
-                race.round === selectedCircuit.round ? "selected" : ""
+                race.round === selectedCircuit?.round ? "selected" : ""
               }`}
               onClick={() => handleRaceClickMobile(race)}
             >
@@ -442,7 +442,7 @@ export function RaceResultsWidget({
                 />
                 <div
                   className={`text-base w-32 leading-4 font-bold ${
-                    race.round === selectedCircuit.round
+                    race.round === selectedCircuit?.round
                       ? "text-white"
                       : "text-gray-800"
                   }`}
@@ -451,7 +451,7 @@ export function RaceResultsWidget({
                 </div>
                 <div
                   className={`text-base w-16 leading-4 ${
-                    race.round === selectedCircuit.round ? "text-white" : ""
+                    race.round === selectedCircuit?.round ? "text-white" : ""
                   }`}
                 >
                   {new Date(race.date + "T" + race.time).toLocaleString(

@@ -96,20 +96,20 @@ export function UpcomingRacesWidgetVertical({
                 <button
                   key={race.round}
                   className={`relative text-left p-2 mr-2 rounded-2xl w-64 border-gray-300 border-2 ${
-                    race.round === selectedCircuit.round ? "bg-black first" : ""
+                    race.round === selectedCircuit?.round ? "bg-black first" : ""
                   }`}
                   onClick={() => handleRaceClick(race)}
                 >
                   <div
                     className={`text-gray-500 text-xs ${
-                      race.round === selectedCircuit.round
+                      race.round === selectedCircuit?.round
                         ? "text-white first"
                         : ""
                     }`}
                   >{`Round ${race.round}`}</div>
                   <div
                     className={` ${
-                      race.round === selectedCircuit.round
+                      race.round === selectedCircuit?.round
                         ? "text-white font-bold first"
                         : "text-gray-800"
                     }`}
@@ -118,7 +118,7 @@ export function UpcomingRacesWidgetVertical({
                   </div>
                   <div
                     className={`text-gray-500 text-xs ${
-                      race.round === selectedCircuit.round
+                      race.round === selectedCircuit?.round
                         ? "text-white first"
                         : ""
                     }`}
@@ -133,7 +133,7 @@ export function UpcomingRacesWidgetVertical({
                       })
                       .replace(/,/, " at")}
                   </div>
-                  {race.round === futureRaces[0].round ? (
+                  {race.round === futureRaces[0]?.round ? (
                     <div className="absolute top-[5px] right-[5px]">
                       <p className="text-red-600 px-1 py-[2px] font-bold bg-neutral-200 rounded-lg text-xs">
                         NEXT
@@ -162,7 +162,7 @@ export function UpcomingRacesWidgetVertical({
           <CircuitDetailedWidget
             circuit={selectedCircuit}
             raceSchedule={raceSchedule as any}
-            key={selectedCircuit.round} // Add key prop to force re-render
+            key={selectedCircuit?.round} // Add key prop to force re-render
           />
         )}
       </div>

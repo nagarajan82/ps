@@ -345,7 +345,7 @@ export function RaceScheduleWidgetMobile({
 
   const reloadSlider = (race: any) => {
     setSelectedCircuit(race as UpdatedSchedule);
-    slider.current?.slickGoTo(race.round - 1);
+    slider.current?.slickGoTo(race?.round - 1);
   };
 
   const settings = {
@@ -378,20 +378,20 @@ export function RaceScheduleWidgetMobile({
             <button
               key={race.round}
               className={`relative circuit-info--button text-left px-1 py-2 rounded-lg ${
-                race.round === selectedCircuit.round ? "selected" : ""
+                race.round === selectedCircuit?.round ? "selected" : ""
               }`}
               onClick={() => handleRaceClick(race)}
             >
               <div className="flex items-center">
                 <img
                   className="rounded-lg w-[60px] h-[36px] mr-2 ml-1"
-                  src={race.additionalInfo.flagUrl}
-                  alt={race.additionalInfo.circuitName}
+                  src={race.additionalInfo?.flagUrl}
+                  alt={race.additionalInfo?.circuitName}
                 />
                 <div className="flex flex-col">
                   <div
                     className={`text-sm leading-4 ${
-                      race.round === selectedCircuit.round ? "text-white" : ""
+                      race.round === selectedCircuit?.round ? "text-white" : ""
                     }`}
                   >
                     {new Date(race.date + "T" + race.time).toLocaleString(
@@ -408,16 +408,16 @@ export function RaceScheduleWidgetMobile({
                   </div>
                   <div
                     className={`text-md mt-1 leading-4 font-bold ${
-                      race.round === selectedCircuit.round
+                      race.round === selectedCircuit?.round
                         ? "text-white"
                         : "text-gray-800"
                     }`}
                   >
-                    {race.additionalInfo.Location.country}
+                    {race.additionalInfo?.Location.country}
                   </div>
                 </div>
               </div>
-              {race.round === futureRaces[0].round ? (
+              {race.round === futureRaces[0]?.round ? (
                 <div className="absolute top-1 right-1 race-schedule--next-tag">
                   NEXT
                 </div>
@@ -435,28 +435,28 @@ export function RaceScheduleWidgetMobile({
           <button
             key={race.round}
             className={`relative w-full circuit-info--button text-left rounded-lg ${
-              race.round === selectedCircuit.round ? "selected" : ""
+              race.round === selectedCircuit?.round ? "selected" : ""
             }`}
             onClick={() => handleRaceClickMobile(race)}
           >
             <div className="flex items-center justify-between py-1 px-2">
               <img
                 className="rounded-md w-10 h-7 border-2 border-black"
-                src={race.additionalInfo.flagUrl}
-                alt={race.additionalInfo.circuitName}
+                src={race.additionalInfo?.flagUrl}
+                alt={race.additionalInfo?.circuitName}
               />
               <div
                 className={`text-base w-32 leading-4 font-bold ${
-                  race.round === selectedCircuit.round
+                  race.round === selectedCircuit?.round
                     ? "text-white"
                     : "text-gray-800"
                 }`}
               >
-                {race.additionalInfo.Location.country}
+                {race.additionalInfo?.Location.country}
               </div>
               <div
                 className={`text-base w-16 leading-4 ${
-                  race.round === selectedCircuit.round ? "text-white" : ""
+                  race.round === selectedCircuit?.round ? "text-white" : ""
                 }`}
               >
                 {new Date(race.date + "T" + race.time).toLocaleString("en-US", {
@@ -469,7 +469,7 @@ export function RaceScheduleWidgetMobile({
                   .toUpperCase()}
               </div>
             </div>
-            {race.round === futureRaces[0].round ? (
+            {race.round === futureRaces[0]?.round ? (
               <div className="absolute right-24 top-0 bottom-0 flex ">
                 <p className="self-center race-schedule--next-tag">NEXT</p>
               </div>
@@ -483,7 +483,7 @@ export function RaceScheduleWidgetMobile({
         <CircuitDetailedWidgetMobile
           circuit={selectedCircuit}
           raceSchedule={updatedRaceSchedule}
-          key={selectedCircuit.round} // Add key prop to force re-render
+          key={selectedCircuit?.round} // Add key prop to force re-render
         />
       )}
     </div>

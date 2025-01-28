@@ -389,7 +389,7 @@ export function RaceScheduleWidget({
             <button
               key={race.round}
               className={`relative circuit-info--button text-left px-1 py-2 rounded-lg ${
-                race.round === selectedCircuit.round ? "selected" : ""
+                race.round === selectedCircuit?.round ? "selected" : ""
               }`}
               onClick={() => handleRaceClick(race)}
             >
@@ -402,7 +402,7 @@ export function RaceScheduleWidget({
                 <div className="flex flex-col">
                   <div
                     className={`text-sm leading-4 ${
-                      race.round === selectedCircuit.round ? "text-white" : ""
+                      race.round === selectedCircuit?.round ? "text-white" : ""
                     }`}
                   >
                     {new Date(race.date + "T" + race.time).toLocaleString(
@@ -419,7 +419,7 @@ export function RaceScheduleWidget({
                   </div>
                   <div
                     className={`text-md mt-1 leading-4 font-bold ${
-                      race.round === selectedCircuit.round
+                      race.round === selectedCircuit?.round
                         ? "text-white"
                         : "text-gray-800"
                     }`}
@@ -428,7 +428,7 @@ export function RaceScheduleWidget({
                   </div>
                 </div>
               </div>
-              {race.round === futureRaces[0].round ? (
+              {race.round === futureRaces[0]?.round ? (
                 <div className="absolute top-1 right-1 race-schedule--next-tag">
                   NEXT
                 </div>
@@ -443,7 +443,7 @@ export function RaceScheduleWidget({
         <CircuitDetailedWidget
           circuit={selectedCircuit}
           raceSchedule={updatedRaceSchedule}
-          key={selectedCircuit.round} // Add key prop to force re-render
+          key={selectedCircuit?.round} // Add key prop to force re-render
         />
       )}
     </div>
